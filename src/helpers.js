@@ -9,7 +9,7 @@ var regexps = {
   replaceFontsRe: /<(\/?)font[^>]*>/gi,
   trimRe: /^\s+|\s+$/g,
   normalizeRe: /\s{2,}/g,
-  killBreaksRe: /(<br\s*\/?>(\s|&nbsp;?)*){1,}/g,
+  killBreaksRe: /(<br\s*\/?>){1,}/g,
   videoRe: /http:\/\/(www\.)?(youtube|vimeo|youku|tudou|56|yinyuetai)\.com/i
 };
 
